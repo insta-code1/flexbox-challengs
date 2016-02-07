@@ -1,6 +1,6 @@
 .box {
 	color:white;
-	font-size: 20px;
+	font-size: 40px;
 	text-align: center;
 	text-shadow: 4px 4px 0 rgba(0,0,0.1)l
 	padding: 10px;
@@ -18,7 +18,20 @@
 
 .container {
 	display: flex;
-	justify-content:center;
+	flex-wrap:wrap;
 	flex-direction:column;
-	min-height: 100vh;
+	border:10px solid goldenrod;
+	height: 100vh;
+	}
+
+.box{
+	flex-basis: 250px;
+	flex-grow:1;
+}
+.box3 {
+	flex-grow:5;
+}
+
+.box4 {
+	flex-basis: 100px;
 }
